@@ -1,0 +1,9 @@
+name: 'Comment the image of #time_hiro'
+description: 'Comment the image of #time_hiro in the pull request.'
+inputs:
+  repoToken:
+    description: "The GTHUB_TOKEN secret"
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
