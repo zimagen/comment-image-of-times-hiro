@@ -10,6 +10,6 @@ PRにヒロさんの画像を貼るアクション
 
 ## Example usage
 
-uses: zimagen/hello-world-javascript-action@v2.0
+uses: zimagen/comment-image-of-times-hiro@v1.0
 with:
   repoToken: "${{ secrets.GITHUB_TOKEN }}"
